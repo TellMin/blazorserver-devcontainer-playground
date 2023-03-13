@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: ./blazorserver_devcontainer_playground/Docker/Dockerfile
+    container_name: blazorserver_devcontainer_playground
+    ports:
+      - 8000:80
