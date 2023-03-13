@@ -1,0 +1,15 @@
+{
+    "dockerComposeFile": ["docker-compose.yml"],
+    "service": "web",
+	"workspaceFolder": "/blazorserver-devcontainer-playground",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-dotnettools.csharp",
+				"ms-dotnettools.vscode-dotnet-runtime",
+				"MS-CEINTL.vscode-language-pack-ja",
+				"GitHub.copilot-nightly"
+			]
+		}
+	}
+  }
